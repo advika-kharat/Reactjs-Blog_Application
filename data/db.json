@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Jamais vu",
+      "body": "bottle bottle bottle bottle bottle",
+      "author": "akivda",
+      "id": 1
+    },
+    {
+      "title": "Deja Vu",
+      "body": "glitch in the matrix!",
+      "author": "advika",
+      "id": 2
+    },
+    {
+      "title": "Suru Puru",
+      "body": "Hi, I'm Suru, adi's cutie boyfie",
+      "author": "suru",
+      "id": 5
+    },
+    {
+      "title": "Something something",
+      "body": "sururururururu",
+      "author": "suru",
+      "id": 6
+    }
+  ]
+}

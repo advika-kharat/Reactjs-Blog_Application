@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+*{
+ margin:0;
+ font-family: "Roboto Mono";
+ 
+}
+
+.navbar{
+ padding : 30px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ max-width: 80%;
+ margin: 0 auto;
+ border-bottom: 1px solid burlywood;
+}
+
+.navbar h1{
+ color: chocolate;
+}
+
+.navbar .links{
+ margin-left: auto;
+}
+
+.navbar a{
+ margin-left : 16px;
+ text-decoration : none;
+ padding: 6px;
+ color: black;
+ background-color: beige;
+ border-radius: 10px; 
+
+}
+
+.navbar a:hover{
+ color: brown;
+ transform:scale(5);
+
+}
+
+.content{
+ max-width: 80%;
+ margin: 40px auto;
+ padding: 20px;
+}
+
+.blog-preview{
+ background-color: rgb(255, 255, 230);
+ border-radius: 20px;
+ padding: 10px;
+ margin: 10px;
+ color:brown;
+ 
+}
+
+.blog-preview:hover{
+ transform: scale(1.02);
+ box-shadow:1px 3px 8px  rgb(255, 143, 143);
+}
+
+.home{
+  
+    max-width: 60%;
+}
+
+.blog-preview a{
+    text-decoration: none;
+}
+
+#add{
+    margin-left:30px;
+    margin-bottom:50px;
+}
+
+.create{
+    background-color: beige;
+    border-radius: 10px;
+    margin:20px;
+    text-align: left;
+    padding: 20px;    
+    width: 100%;
+}
+
+.create label{
+    color: brown;
+    font-style: normal;
+    font-size: 25px;
+    margin:20px;
+    padding:15px; 
+    
+}
+
+.create input{
+    border-radius: 5px;
+    border-color: brown;
+    width: 30%;
+    margin:30px;
+}
+
+.create textarea{
+    border-radius: 5px;
+    border-color: brown;
+    margin:30px;
+    width: 50%;
+    height: 100px;
+    
+}
+
+.create select{
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom:30px;    
+}
+
+.create button{
+    text-decoration: none;
+    background-color: brown;
+    color: bisque;
+    margin-top:30px;
+    margin-left: 50px;
+    margin-bottom:30px;
+    font-size:20px;
+    border-radius: 10px;
+}
+
+
+.blog-details button{
+    text-decoration: none;
+    background-color: brown;
+    color: bisque;
+    margin-top:30px;
+    margin-left: 50px;
+    margin-bottom:30px;
+    font-size:20px;
+    border-radius: 10px;
+}
